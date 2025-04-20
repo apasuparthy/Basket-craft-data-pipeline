@@ -3,7 +3,7 @@
 2. Load source MySQL and destination Postgres connection details.
 3. Build connection strings and create database engines.
 4. Read products table from MySQL and load into a DataFrame.
-5. Write DataFrame to products table in Postgres. (raw schema)
+5. Write DataFrame to products table in Postgres (raw schema).
 """
  
 # %%
