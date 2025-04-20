@@ -52,6 +52,7 @@ df = pd.read_sql('SELECT * FROM products', mysql_engine)
 df.to_sql('products', pg_engine, schema='raw', if_exists='replace', index=False)
 
 # %%
+# Print the number of records loaded
 print(f'{len(df)} records loaded into Postgres products table.')
 
 # %%
