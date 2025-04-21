@@ -5,7 +5,7 @@
 4. Read products table from MySQL and load into a DataFrame.
 5. Write DataFrame to products table in Postgres (raw schema).
 """
- 
+
 # %%
 # Import necessary libraries
 import pandas as pd
