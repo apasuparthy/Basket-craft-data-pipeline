@@ -6,6 +6,7 @@
 5. Write DataFrame to products table in Postgres (raw schema).
 """
 
+
 # %%
 # Import necessary libraries
 import pandas as pd
