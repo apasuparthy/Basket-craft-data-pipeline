@@ -42,3 +42,7 @@ jobs:
         run: |
           python elt/Basket_craft_orders_extract_load_raw.py
 
+      - name: Extract and Load website_sessions to Raw Schema
+        run: |
+          python elt/Basket_craft_website_sessions_extract_load_raw.py
+
